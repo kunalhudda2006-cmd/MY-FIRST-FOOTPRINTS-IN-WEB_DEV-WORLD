@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+
 </head>
 <body>
     <h1>WEATHER FORECAST</h1>
     <div>enter the city name</div>
-    <input type="text" placeholder="Enter city name">
+    <input type="text" placeholder="Enter city name" id="city">
     <button>SEARCH</button>
+    <div class="a"><div>temperature:</div>
+    <div id="temp"></div></div>
+    <div class="a"><div>weather:</div>
+    <div id="desc"></div></div>
+    <div class="a"><div>humidity:</div>
+    <div id="humidity"></div></div>
+    <img id="img" alt="weather">
+    <script src="weather.js"></script>
 </body>
 </html>
