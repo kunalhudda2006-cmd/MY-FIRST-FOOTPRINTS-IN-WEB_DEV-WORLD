@@ -11,4 +11,6 @@ but.addEventListener("click",async()=>{
     document.querySelector("#desc").textContent = data.weather[0].description;
     document.querySelector("#humidity").textContent = `${data.main.humidity}%`;
     document.querySelector("#img").src=iconUrl;
+    document.querySelector("#img").style.display="block";
+    
 });

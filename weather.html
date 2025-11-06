@@ -9,17 +9,23 @@
 
 </head>
 <body>
-    <h1>WEATHER FORECAST</h1>
-    <div>enter the city name</div>
+    <div class="container">
+    <h1>WEATHER FORECAST</h1><br>
+    
     <input type="text" placeholder="Enter city name" id="city">
-    <button>SEARCH</button>
+    <button>SEARCH</button><br>
     <div class="a"><div>temperature:</div>
     <div id="temp"></div></div>
     <div class="a"><div>weather:</div>
     <div id="desc"></div></div>
     <div class="a"><div>humidity:</div>
     <div id="humidity"></div></div>
-    <img id="img" alt="weather">
+    <img id="img" alt="weather" onerror="this.style.display='none';" style="display: none;">
+    </div>
+    <footer>
+  <p>© 2025 Weather Forecast | Built by <span>Kunal Hudda</span> | <a href="https://github.com/kunalhudda2006-cmd" target="_blank">GitHub</a></p>
+</footer>
+
     <script src="weather.js"></script>
 </body>
 </html>
