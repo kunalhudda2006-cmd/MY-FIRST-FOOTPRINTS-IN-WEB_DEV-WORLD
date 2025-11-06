@@ -15,7 +15,7 @@ body {
   flex-direction: column;
 }
 
-.container {
+.container1 {
     display:flex;
   text-align: center;
   background: rgba(192, 179, 179, 0.4);
