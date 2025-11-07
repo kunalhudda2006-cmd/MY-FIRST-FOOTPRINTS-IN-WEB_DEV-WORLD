@@ -35,12 +35,14 @@ select {
 button{
     border-radius:10px;
     color:#3f3f42;
-    box-shadow:16px 14px 10px rgba(0,0,0,0.2);
-    background-color:rgba(236, 236, 238, 0.651);
+    border:none;
+    box-shadow:6px 4px 20px rgba(156, 154, 154, 0.1);
+    background-color:rgba(236, 236, 238, 0.151);
     backdrop-filter: blur(0px);
 }
 input{
     color:#3f3f42;
+    border:none;
     box-shadow:16px 14px 10px rgba(0,0,0,0.2);
     background-color:rgba(236, 236, 238, 0.651);
     backdrop-filter: blur(0px);
@@ -50,7 +52,7 @@ button:hover{
 }
 li{
     display:flex;
-    gap:20px;
+    justify-content:space-between;
 }
 img{
     height:540px;
